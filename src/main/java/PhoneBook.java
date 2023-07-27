@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,5 +25,9 @@ public class PhoneBook {
 
     public String findByName(String name) {
         return contacts.get(name);
+    }
+
+    public List<String> printAllNames() {
+        return null;
     }
 }
