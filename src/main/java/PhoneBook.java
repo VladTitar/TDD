@@ -1,3 +1,5 @@
 public class PhoneBook {
-    // TODO: Реализация методов будет происходить на последующих этапах.
+    public int add(String name, String number) {
+        return 0;
+    }
 }
